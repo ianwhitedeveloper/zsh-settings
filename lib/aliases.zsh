@@ -121,3 +121,6 @@ alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
 alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
+alias gcmsga='git commit -am'
+# Git add -A plus git commit -m
+alias gaacmsg='git add -A && git commit -m'
