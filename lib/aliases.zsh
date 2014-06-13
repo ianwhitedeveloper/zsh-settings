@@ -124,3 +124,14 @@ alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
 alias gcmsga='git commit -am'
 # Git add -A plus git commit -m
 alias gaacmsg='git add -A && git commit -m'
+# Git push origin master
+alias gpom='git push origin master'
+
+# Grunt aliases
+alias grban='grunt build:android'
+alias grran='grunt run:android'
+alias grean='grunt emulate:android'
+
+alias grbios='grunt build:ios'
+alias grrios='grunt run:ios'
+alias greios='grunt emulate:ios'
