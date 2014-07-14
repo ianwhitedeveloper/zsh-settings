@@ -49,6 +49,10 @@ alias grbios='grunt build:ios'
 alias grrios='grunt run:ios'
 alias greios='grunt emulate:ios'
 
+# Rails aliases
+alias bexrsp='bundle exec rspec'
+
+
 
 
 
