@@ -128,6 +128,8 @@ alias gcmsga='git commit -am'
 alias gaacmsg='git add -A && git commit -m'
 # Git push origin master
 alias gpom='git push origin master'
+# Git push origin
+alias gpo='git push origin'
 
 # Grunt aliases
 alias grban='grunt build:android'
