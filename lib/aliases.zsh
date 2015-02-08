@@ -39,6 +39,8 @@ alias gcmsga='git commit -am'
 alias gaacmsg='git add -A && git commit -m'
 # Git push origin master
 alias gpom='git push origin master'
+# Git push origin
+# alias gpo='git push origin'
 
 # Grunt aliases
 alias grban='grunt build:android'
@@ -51,6 +53,11 @@ alias greios='grunt emulate:ios'
 
 # Rails aliases
 alias bexrsp='bundle exec rspec'
+alias dbreset='rake db:drop db:create db:migrate db:populate'
+alias dbpop='rake db:populate'
+alias dbd='rake db:drop'
+alias dbm='rake db:migrate'
+alias dbc='rake db:create'
 
 
 
