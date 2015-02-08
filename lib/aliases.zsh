@@ -52,7 +52,7 @@ alias grrios='grunt run:ios'
 alias greios='grunt emulate:ios'
 
 # Rails aliases
-alias bexrsp='bundle exec rspec'
+alias runtest='bundle exec rspec'
 alias dbreset='rake db:drop db:create db:migrate db:populate'
 alias dbpop='rake db:populate'
 alias dbd='rake db:drop'
