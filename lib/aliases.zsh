@@ -57,6 +57,7 @@ alias dbreset='rake db:drop db:create db:migrate db:populate'
 alias dbpop='rake db:populate'
 alias dbd='rake db:drop'
 alias dbm='rake db:migrate'
+alias dbmtest='rake db:migrate RAILS_ENV=test'
 alias dbc='rake db:create'
 
 
