@@ -34,9 +34,13 @@ alias la='ls -lAh'
 alias afind='ack-grep -il'
 
 # Git commit add all with msg
-alias gcmsga='git commit -am'
+alias gacm='git commit -am'
+# Git commit add all 
+alias gac='git commit -a'
 # Git add -A plus git commit -m
-alias gaacmsg='git add -A && git commit -m'
+alias gAcm='git add -A && git commit -m'
+# Git add -A plus git commit 
+alias gAc='git add -A && git commit'
 # Git push origin master
 alias gpom='git push origin master'
 # Git push origin
