@@ -60,6 +60,13 @@ alias grb='grunt build'
 # Rails aliases
 alias bexrsp='bundle exec rspec'
 
+alias gulp='node_modules/.bin/gulp'
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
+
+alias showHosts='subl /private/etc/hosts'
+
 
 
 
