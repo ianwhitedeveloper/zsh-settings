@@ -90,6 +90,7 @@ alias stash='git stash'
 alias astash='git stash apply'
 
 alias clean='git clean -f'
+alias showHosts='subl /private/etc/hosts'
 
 # Recursively remove all node_modules folders to clear up space
 alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
