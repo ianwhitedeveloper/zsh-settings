@@ -66,6 +66,8 @@ alias dbc='rake db:create'
 
 alias rud='rvm use default'
 
+alias gulp='node_modules/.bin/gulp'
+
 
 
 
