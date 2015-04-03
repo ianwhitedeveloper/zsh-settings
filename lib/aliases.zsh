@@ -68,8 +68,12 @@ alias rud='rvm use default'
 
 alias gulp='node_modules/.bin/gulp'
 
+# Show/Hide system hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
+
+# Open system hosts files
+alias showHosts='subl /private/etc/hosts'
 
 
 
