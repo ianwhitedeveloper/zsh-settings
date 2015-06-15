@@ -65,7 +65,15 @@ alias gulp='node_modules/.bin/gulp'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
 
+# misc
 alias showHosts='subl /private/etc/hosts'
+alias _vu='sudo vagrant up'
+alias _vh='sudo vagrant halt'
+alias _vr='sudo vagrant reload'
+
+alias vu='vagrant up'
+alias vh='vagrant halt'
+alias vr='vagrant reload'
 
 
 
