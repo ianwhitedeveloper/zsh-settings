@@ -70,10 +70,14 @@ alias showHosts='subl /private/etc/hosts'
 alias _vu='sudo vagrant up'
 alias _vh='sudo vagrant halt'
 alias _vr='sudo vagrant reload'
+alias _vd='sudo vagrant destroy --f'
+alias _vs='sudo vagrant suspend'
 
 alias vu='vagrant up'
 alias vh='vagrant halt'
 alias vr='vagrant reload'
+alias vd='vagrant destroy --f'
+alias vs='vagrant suspend'
 
 
 
