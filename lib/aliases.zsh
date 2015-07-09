@@ -79,6 +79,13 @@ alias vr='vagrant reload'
 alias vd='vagrant destroy --f'
 alias vs='vagrant suspend'
 
+alias stash='git stash'
+alias astash='git stash apply'
+
+alias clean='git clean -f'
+
+
+
 
 
 
