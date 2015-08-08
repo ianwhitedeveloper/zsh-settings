@@ -75,6 +75,13 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
 # Open system hosts files
 alias showHosts='subl /private/etc/hosts'
 
+alias _vu='sudo vagrant up'
+alias _vd='sudo vagrant destroy -f'
+alias _vs='sudo vagrant suspend'
+alias _vre='sudo vagrant resume'
+
+
+
 
 
 
