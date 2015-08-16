@@ -80,6 +80,10 @@ alias _vd='sudo vagrant destroy -f'
 alias _vs='sudo vagrant suspend'
 alias _vre='sudo vagrant resume'
 
+alias adios_node_modules='find . -name "node_modules" -exec rm -rf "{}" +'
+
+alias add_spacer="defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type='spacer-tile';}' && killall Dock"
+
 
 
 
