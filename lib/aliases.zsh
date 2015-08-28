@@ -88,6 +88,9 @@ alias astash='git stash apply'
 
 alias clean='git clean -f'
 
+# Recursively remove all node_modules folders to clear up space
+alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
+
 
 
 
