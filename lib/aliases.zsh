@@ -100,6 +100,8 @@ alias vh='vagrant halt'
 alias vr='vagrant reload'
 alias stash='git stash'
 alias astash='git stash apply'
+# Recursively remove all node_modules folders to clear up space
+alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 
 alias clean='git clean -f'
 
