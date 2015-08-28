@@ -45,6 +45,8 @@ alias gAc='git add -A && git commit'
 alias gpom='git push origin master'
 # Git push origin
 alias gpo='git push origin'
+# Abort current local merge attempt
+alias abortMerge='git reset --hard HEAD'
 
 # Grunt aliases
 alias grban='grunt build:android'
