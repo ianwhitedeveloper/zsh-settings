@@ -133,6 +133,8 @@ alias gpo='git push origin'
 # Abort current local merge attempt
 alias abortMerge='git reset --hard HEAD'
 
+alias glol='git log --pretty=oneline --abbrev-commit'
+
 # Grunt aliases
 alias grban='grunt build:android'
 alias grran='grunt run:android'
