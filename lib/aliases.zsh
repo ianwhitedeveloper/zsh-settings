@@ -93,6 +93,11 @@ alias clean='git clean -f'
 # Recursively remove all node_modules folders to clear up space
 alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 
+# Return IP address as a string
+alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
+
+alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
+
 
 
 
