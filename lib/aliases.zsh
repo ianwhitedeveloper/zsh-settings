@@ -98,9 +98,5 @@ alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
 alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
 
-
-
-
-
-
-
+# SSH shortcut to Longitudes AWS stage server
+alias sshLongitudes="ssh -i ~/.ssh/ian_white.pem ubuntu@54.196.141.223"
