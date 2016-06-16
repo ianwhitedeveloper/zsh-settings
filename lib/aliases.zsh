@@ -45,8 +45,13 @@ alias gAc='git add -A && git commit'
 alias gpom='git push origin master'
 # Git push origin
 alias gpo='git push origin'
+# Force git push origin (useful for new branches)
+alias fgpo='git push --set-upstream origin $(git symbolic-ref --short -q HEAD)'
 # Abort current local merge attempt
 alias abortMerge='git reset --hard HEAD'
+
+# Delete local and remote *origin* branches 
+alias killBranches='git push origin --delete $(git symbolic-ref --short -q HEAD) && git branch -D $(git symbolic-ref --short -q HEAD)'
 
 alias glol='git log --pretty=oneline --abbrev-commit'
 
