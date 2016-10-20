@@ -39,12 +39,21 @@ alias gacm='git commit -am'
 alias gac='git commit -a'
 # Git add -A plus git commit -m
 alias gAcm='git add -A && git commit -m'
-# Git add -A
+# Git add -A plus git commit
 alias gAc='git add -A && git commit'
 # Git push origin master
 alias gpom='git push origin master'
 # Git push origin
 alias gpo='git push origin'
+# Abort current local merge attempt
+alias abortMerge='git reset --hard HEAD'
+
+alias glol='git log --pretty=oneline --abbrev-commit'
+alias gcmsga='git commit -am'
+# Git add -A plus git commit -m
+alias gaacmsg='git add -A && git commit -m'
+# Git push origin master
+alias gpom='git push origin master'
 
 # Grunt aliases
 alias grban='grunt build:android'
@@ -55,38 +64,48 @@ alias grbios='grunt build:ios'
 alias grrios='grunt run:ios'
 alias greios='grunt emulate:ios'
 
-# Rails aliases
-alias runtest='bundle exec rspec'
-alias dbreset='rake db:drop db:create db:migrate db:populate'
-alias dbpop='rake db:populate'
-alias dbd='rake db:drop'
-alias dbm='rake db:migrate'
-alias dbmtest='rake db:migrate RAILS_ENV=test'
-alias dbc='rake db:create'
+alias grb='grunt build'
 
-alias rud='rvm use default'
+# Rails aliases
+alias bexrsp='bundle exec rspec'
 
 alias gulp='node_modules/.bin/gulp'
 
-# Show/Hide system hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
 
-# Open system hosts files
+# misc
 alias showHosts='subl /private/etc/hosts'
-
 alias _vu='sudo vagrant up'
-alias _vd='sudo vagrant destroy -f'
+alias _vh='sudo vagrant halt'
+alias _vr='sudo vagrant reload'
+alias _vd='sudo vagrant destroy --f'
 alias _vs='sudo vagrant suspend'
 alias _vre='sudo vagrant resume'
 
-alias adios_node_modules='find . -name "node_modules" -exec rm -rf "{}" +'
+alias vu='vagrant up'
+alias vh='vagrant halt'
+alias vr='vagrant reload'
+alias vd='vagrant destroy --f'
+alias vs='vagrant suspend'
+alias vre='vagrant resume'
+alias vgs='vagrant global-status'
 
-alias add_spacer="defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type='spacer-tile';}' && killall Dock"
+alias stash='git stash'
+alias astash='git stash apply'
 
+alias clean='git clean -f'
 
+# Recursively remove all node_modules folders to clear up space
+alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 
+# Return IP address as a string
+alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
+alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
 
-
-
+# SSH shortcut to Longitudes AWS stage server
+alias sshLongitudes="ssh -i ~/.ssh/ian_white.pem ubuntu@54.196.141.223"
+=======
+# Rails aliases
+alias bexrsp='bundle exec rspec'
