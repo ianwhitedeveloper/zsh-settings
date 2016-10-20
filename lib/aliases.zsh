@@ -106,6 +106,5 @@ alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
 
 # SSH shortcut to Longitudes AWS stage server
 alias sshLongitudes="ssh -i ~/.ssh/ian_white.pem ubuntu@54.196.141.223"
-=======
 # Rails aliases
 alias bexrsp='bundle exec rspec'
