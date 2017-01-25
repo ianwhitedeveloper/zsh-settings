@@ -109,3 +109,4 @@ alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
 alias sshLongitudes="ssh -i ~/.ssh/ian_white.pem ubuntu@54.196.141.223"
 # Rails aliases
 alias bexrsp='bundle exec rspec'
+alias removeOrigFiles="find . -name '*.orig' -delete"
