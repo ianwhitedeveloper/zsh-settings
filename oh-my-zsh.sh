@@ -119,3 +119,4 @@ else
     fi
   fi
 fi
+eval "$(docker-machine env default)"
