@@ -47,7 +47,8 @@ alias gpom='git push origin master'
 alias gpo='git push origin'
 # Abort current local merge attempt
 alias abortMerge='git reset --hard HEAD'
-
+alias gf='git fetch'
+alias grbm='git rebase origin/master'
 alias glol='git log --pretty=oneline --abbrev-commit'
 alias gcmsga='git commit -am'
 # Git add -A plus git commit -m
@@ -55,16 +56,6 @@ alias gaacmsg='git add -A && git commit -m'
 # Git push origin master
 alias gpom='git push origin master'
 alias gplom='git pull origin master'
-
-# Grunt aliases
-alias grban='grunt build:android'
-alias grran='grunt run:android'
-alias grean='grunt emulate:android'
-
-alias grbios='grunt build:ios'
-alias grrios='grunt run:ios'
-alias greios='grunt emulate:ios'
-
 alias grb='grunt build'
 
 # Rails aliases
@@ -104,9 +95,6 @@ alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
 alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
-
-# SSH shortcut to Longitudes AWS stage server
-alias sshLongitudes="ssh -i ~/.ssh/ian_white.pem ubuntu@54.196.141.223"
 # Rails aliases
 alias bexrsp='bundle exec rspec'
 alias removeOrigFiles="find . -name '*.orig' -delete"
