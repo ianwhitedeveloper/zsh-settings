@@ -95,6 +95,7 @@ alias scramNodeModules='find . -name "node_modules" -exec rm -rf "{}" +'
 alias myIpAddy='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
 alias gzipEmAll="find . -type f ! -name '*.gz' -exec gzip "{}" \;"
+alias lowerCaseEmAll='for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | tr "[:upper:]" "[:lower:]"`"; done'
 # Rails aliases
 alias bexrsp='bundle exec rspec'
 alias removeOrigFiles="find . -name '*.orig' -delete"
