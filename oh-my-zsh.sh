@@ -120,3 +120,4 @@ else
   fi
 fi
 eval "$(docker-machine env default)"
+ssh-add -A
