@@ -57,6 +57,7 @@ alias gaacmsg='git add -A && git commit -m'
 alias gpom='git push origin master'
 alias gplom='git pull origin master'
 alias grb='grunt build'
+alias gitprunebranches='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
 
 # Rails aliases
 alias bexrsp='bundle exec rspec'
