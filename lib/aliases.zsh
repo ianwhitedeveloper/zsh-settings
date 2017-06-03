@@ -100,3 +100,9 @@ alias lowerCaseEmAll='for f in *; do mv "$f" "$f.tmp"; mv "$f.tmp" "`echo $f | t
 # Rails aliases
 alias bexrsp='bundle exec rspec'
 alias removeOrigFiles="find . -name '*.orig' -delete"
+
+# Docker
+alias dockerStopAll="docker stop $(docker ps -a -q)"
+alias evalDocker="eval $(docker-machine env default)"
+alias dockerRemoveAllVolumes="docker volume rm $(docker volume ls -f dangling=true -q)"
+
