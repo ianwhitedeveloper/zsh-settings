@@ -107,3 +107,4 @@ alias soiver="python -m SimpleHTTPServer 8080"
 # alias evalDocker="eval $(docker-machine env default)"
 # alias dockerRemoveAllVolumes="docker volume rm $(docker volume ls -f dangling=true -q)"
 
+alias npms="npm start"
